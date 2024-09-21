@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    min-height: 100vh;
+    background-color: rgba(8, 137, 6, 0.532);
+}
+.chronometre{
+    background-color: beige;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center; 
+}
+.tim{
+    margin: auto;
+    border : 1px solid #000;
+    border-radius: 6px;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.tim span{
+    font-family: 'Dancing script' , cursive;
+    font-style: italic;
+    padding: 5px;
+}
+.control{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;  
+}
+button{
+    background-color: #1d9c5e;
+    color: aliceblue;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 31%;
+    border: 0;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(0.9);
+}
